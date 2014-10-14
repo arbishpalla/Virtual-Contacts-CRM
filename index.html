@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<script type="text/javascript">
+      function getid()
+      {
+        var nameElement = document.getElementById("userid").value;
+		var websiteLink = "http://lmrvc.com/index.php?id=t-"+ nameElement;
+		window.location.href = websiteLink;
+		
+      }
+</script>
+</head>
+<body>	
+<div id="main">
+	<p>This page is blank. You must provide an id (like 289110954241962 <a href="#"> [test])</a></p>
+    <p>You may enter an id below.</p>
+    Login:<input type="text" id="userid">
+    <input type="submit"  onClick="getid()" value="Login">
+	</p>
+    </div>
+    </body>
+    </html>
